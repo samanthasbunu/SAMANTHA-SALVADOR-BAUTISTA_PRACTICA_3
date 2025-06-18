@@ -2,11 +2,11 @@ print("indique si es binario o decimal")
 conversor= input()
 
 if conversor=="binario":
-    print("si es binario")
+    print("Escribe 8 dígitos binarios")
     numero= list(input())
     x=[128,64,32,16,8,4,2,1]
     sumadores=[]
-    for i in range (0,len(X)):
+    for i in range (0,len(numero)):
         if numero[i]=="1":
             sumadores.append(x[i])
             print("valor en decimal:",sum(sumadores))
