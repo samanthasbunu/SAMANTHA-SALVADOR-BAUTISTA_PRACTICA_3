@@ -1,0 +1,25 @@
+print("indique si es binario o decimal")
+conversor= input()
+
+if conversor=="binario":
+    print("si es binario")
+    numero= list(input())
+    x=[128,64,32,16,8,4,2,1]
+    sumadores=[]
+    for i in range (0,len(X)):
+        if numero[i]=="1":
+            sumadores.append(x[i])
+            print("valor en decimal:",sum(sumadores))
+
+if conversor == "decimal":
+    print("ingresar el valor en decimal 0-255:")
+    valor = int(input())
+    x = [128, 64, 32, 16, 8, 4, 2, 1]
+    binario = ""
+    for e in range(len(x)):
+        if x[e] <= valor:
+            binario += "1"
+            valor -= x[e]
+        else:
+            binario += "0"
+    print("valor en binario:", binario)
